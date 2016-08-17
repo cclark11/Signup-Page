@@ -16,7 +16,6 @@ body{
 }
 .signup-page{
 	width:320px;
-	height:;
 	display:block;
 	margin:0 auto;
 	text-align: left;
@@ -26,6 +25,7 @@ body{
 	padding-bottom:50px;
 }
 .signup-page input{
+	border-radius:4px;
 	display:block;
 	padding-bottom: 5px;
 	padding-top:15px;
