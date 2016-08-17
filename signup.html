@@ -7,11 +7,11 @@
 <body>
 	<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/s1lUoigoX28V3JL7MWMR/FEWD-001/v5/assets2/1.6.2_challenge_signup_form/logo.png" alt="AnalogSea" class="logo">
 	<form class="signup-page" action="/signup/" method="post" ><h1 class="heading">Sign up</h1>
-	<label for = "email" class= "black" required> Email </label>
-	<input type="email" required name="email" id="email" placeholder="foo@bar.com"/>
-	<label for="password" class="black" required> Password </label>
-	<input type="password" name="password" id="password" placeholder="1234passw0rd"/>
-	<button type="button" class="green"><a href="/signup/" class="white"</a>Sign up</button>
+	<label for = "email" class= "black" > Email </label>
+	<input type="email" name="email" id="email" placeholder="foo@bar.com" required />
+	<label for="password" class="black"> Password </label>
+	<input type="password" name="password" id="password" placeholder="1234passw0rd" required />
+	<input type="submit" class="green white" value="Sign up"</input>
 	<a href="/forgot-password/new" class="forgot">Forgot Password?</a>
 	</form>
 	<div class="login white"> Already have an account? <a href="/login" class="login-link white"> Log in </a>
